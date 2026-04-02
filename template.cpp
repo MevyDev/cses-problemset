@@ -1,10 +1,12 @@
 #include <cstdio>
 #include <iomanip>
 #include <iostream>
+#include <assert.h>
+#include <memory.h>
 
 #include <sstream>
-#include <string>
 
+#include <string>
 #include <array>
 #include <bitset>
 #include <deque>
@@ -46,18 +48,17 @@ using vvl = vector<vector<ll>>;
 #define ins insert
 #define fi first
 #define se second
-int test_n;
+int test_n = 1;
 
 void solve() {
 
 }
 
 signed main() {
-    // ios::sync_with_stdio(false); cin.tie(nullptr);
+    // cin.tie(0)->sync_with_stdio(0);
     int t = 1;
     // cin >> t;
-    while (t--) {
-        test_n++;
+    for (; test_n <= t; test_n++) {
         solve();
     }
 }
